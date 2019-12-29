@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="CSS/style.css" <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <title> Password Generator</title>
 </head>
 
 <body>
@@ -15,13 +16,13 @@
   <container>
     <h2>Generate a Password</h2>
     <textarea id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
-    <button id="generate">Generate Password</button>
-    <button id="copy">
+    <button id="generate" onclick="generatePassword()">Generate Password</button>
+    <button id="copy" onclick="copyBtn()">
       Copy to Clipboard
     </button>
   </container>
 
-  <script src="javascript.js"></script>
+  <script src="scriptV2.js"></script>
 </body>
 
 </html>
