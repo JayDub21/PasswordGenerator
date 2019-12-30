@@ -5,24 +5,39 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title> Password Generator</title>
 </head>
 
 <body>
-  <header>
-    <h1>Password Generator</h1>
-  </header>
-  <container>
-    <h2>Generate a Password</h2>
-    <textarea id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
-    <button id="generate" onclick="generatePassword()">Generate Password</button>
-    <button id="copy" onclick="copyBtn()">
-      Copy to Clipboard
-    </button>
-  </container>
 
-  <script src="scriptV2.js"></script>
+  <div class="wrapper">
+    <div class="main-head">
+      <h1>Password Generator</h1>
+      <hr>
+    </div>
+
+
+    <div class="title">
+      <h2>Generate a Password</h2>
+    </div>
+
+    <div class="textBox">
+      <textarea id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+    </div>
+
+    <div class="genBtn">
+      <button id="generate" onclick="generatePassword()">Generate</button>
+    </div>
+
+    <div class="cpyBtn">
+      <button id="copy" onclick="copyBtn()">Copy</button>
+    </div>
+
+  </div>
+
+
+  <!-- <script src="./assets/javascript/scriptV2.js"></script> -->
 </body>
 
 </html>
