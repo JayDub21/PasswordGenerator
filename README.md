@@ -1,7 +1,7 @@
 # PasswordGenerator
-======
 
-[View In Web Browser](https://jaydub21.github.io/PasswordGenerator/)
+
+[View Page In Web Browser](https://jaydub21.github.io/PasswordGenerator/)
 
 
 Using vanilla Javascript, this simple password generator gives the user options for:
