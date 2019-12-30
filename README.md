@@ -16,4 +16,4 @@ After the user has selected their desired attributes, the script creates a custo
 
 
 
-The page layout is unchanged for mobile and larger screen sizes, using the CSS Grid.
+The responsive page layout works for mobile and larger screen sizes, using CSS Grid.
